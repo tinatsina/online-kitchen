@@ -24,7 +24,8 @@ const displayMainPage = async () => {
             </div>
           </div>
           <div class="comments-reservations">
-            <button type="button" class="reservation-button popup-buttons">Comments</button>
+            <button type="button" class="popup-buttons">Comments</button>
+            <button type="button" class="popup-buttons">Reservations</button>
           </div>
         </div>
     `;
