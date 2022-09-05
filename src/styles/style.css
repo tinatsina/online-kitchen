@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
+  padding: 0 30px;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo p {
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 800;
+  color: #fff;
+  font-size: 23px;
+}
+
+.logo span {
+  color: #e2c044;
+}
+
+.desktop-nav {
+  display: inline-flex;
+  overflow: hidden;
+  gap: 30px;
+}
+
+.desktop-nav a {
+  font-family: 'Kaushan Script', cursive;
+  text-decoration: none;
+  letter-spacing: 7px;
+  color: #fff;
+}
+
+.desktop-nav a:hover {
+  color: #e2c044;
+}
+
+.footer-content {
+  font-size: x-large;
+  color: whitesmoke;
+  background-color: #1e2019;
+}
+
+.footer-text {
+  padding: 1em;
+  opacity: 0.5;
+  font-size: 19px;
+  font-family: cursive;
+  margin-left: 1em;
+}
+
+.prdesign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+  height: 80vh;
+  background-image: url(../images/banner2.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding-left: 100px;
+}
+
+.bannertxt {
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+}
+
+.recipees {
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #8ca045;
+}
